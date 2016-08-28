@@ -18,6 +18,7 @@
 		B8278F3F1D72C98A00658E02 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8278F3E1D72C98A00658E02 /* image.jpg */; };
 		B8278F421D72CA7100658E02 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8278F411D72CA7100658E02 /* CommentViewController.m */; };
 		B8278F441D72E43600658E02 /* ReverseDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B8278F431D72E43600658E02 /* ReverseDemo.gif */; };
+		B8278F461D72E47C00658E02 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8278F451D72E47B00658E02 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		B8278F401D72CA7100658E02 /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
 		B8278F411D72CA7100658E02 /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
 		B8278F431D72E43600658E02 /* ReverseDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ReverseDemo.gif; sourceTree = "<group>"; };
+		B8278F451D72E47B00658E02 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				B8278F401D72CA7100658E02 /* CommentViewController.h */,
 				B8278F411D72CA7100658E02 /* CommentViewController.m */,
 				B8278F141D72C8D500658E02 /* Main.storyboard */,
+				B8278F451D72E47B00658E02 /* icon.png */,
 				B8278F171D72C8D500658E02 /* Assets.xcassets */,
 				B8278F191D72C8D500658E02 /* LaunchScreen.storyboard */,
 				B8278F1C1D72C8D500658E02 /* Info.plist */,
@@ -256,6 +259,7 @@
 			files = (
 				B8278F1B1D72C8D500658E02 /* LaunchScreen.storyboard in Resources */,
 				B8278F181D72C8D500658E02 /* Assets.xcassets in Resources */,
+				B8278F461D72E47C00658E02 /* icon.png in Resources */,
 				B8278F161D72C8D500658E02 /* Main.storyboard in Resources */,
 				B8278F3F1D72C98A00658E02 /* image.jpg in Resources */,
 				B8278F441D72E43600658E02 /* ReverseDemo.gif in Resources */,
