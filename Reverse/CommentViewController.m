@@ -20,16 +20,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor whiteColor];// 背景色设为白色
     
-    // 导航栏按钮
+    // 自定义导航栏按钮
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleBordered target:self action:@selector(back)];
     self.navigationItem.leftBarButtonItem = backButton;
     
+    // 图片
     UIImageView *myImage = [[UIImageView alloc] initWithFrame:CGRectMake((SCREENWIDTH - 300)/2, (SCREENHEIGHT - 200)/2 - 100, 300, 200)];
     myImage.image = [UIImage imageNamed:@"image.jpg"];
     [self.view addSubview:myImage];
     
+    // 一条文本
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake((SCREENWIDTH - 200)/2, myImage.frame.origin.y + myImage.frame.size.height + 20, 200, 30)];
     label.text = @"100个赞，100条评论";
     label.textAlignment = NSTextAlignmentCenter;
@@ -38,6 +40,7 @@
 
 // 返回上一页
 - (void)back {
+    // 设置翻转动画为从左边翻上来
     [UIView transitionWithView:self.navigationController.view duration:1 options:UIViewAnimationOptionTransitionFlipFromLeft animations:nil completion:nil];
     [self.navigationController popViewControllerAnimated:NO];
 }

@@ -28,6 +28,7 @@
     myImage.image = [UIImage imageNamed:@"image.jpg"];
     [self.view addSubview:myImage];
     
+    // 右下角查看评论的按钮
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(SCREENWIDTH - 100, SCREENHEIGHT - 50, 80, 30)];
     label.text = @"查看评论";
     label.textColor = [UIColor whiteColor];
@@ -41,6 +42,7 @@
 - (void)viewComment {
     CommentViewController *commentVC = [[CommentViewController alloc] init];
     [self.navigationController pushViewController:commentVC animated:NO];
+    // 设置翻页动画为从右边翻上来
     [UIView transitionWithView:self.navigationController.view duration:1 options:UIViewAnimationOptionTransitionFlipFromRight animations:nil completion:nil];
 }
 
