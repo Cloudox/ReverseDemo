@@ -15,6 +15,8 @@
 		B8278F1B1D72C8D500658E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8278F191D72C8D500658E02 /* LaunchScreen.storyboard */; };
 		B8278F261D72C8D500658E02 /* ReverseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8278F251D72C8D500658E02 /* ReverseTests.m */; };
 		B8278F311D72C8D600658E02 /* ReverseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8278F301D72C8D600658E02 /* ReverseUITests.m */; };
+		B8278F3F1D72C98A00658E02 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8278F3E1D72C98A00658E02 /* image.jpg */; };
+		B8278F421D72CA7100658E02 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8278F411D72CA7100658E02 /* CommentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		B8278F2C1D72C8D600658E02 /* ReverseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8278F301D72C8D600658E02 /* ReverseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseUITests.m; sourceTree = "<group>"; };
 		B8278F321D72C8D600658E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8278F3E1D72C98A00658E02 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		B8278F401D72CA7100658E02 /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		B8278F411D72CA7100658E02 /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +110,13 @@
 				B8278F0F1D72C8D500658E02 /* AppDelegate.m */,
 				B8278F111D72C8D500658E02 /* ViewController.h */,
 				B8278F121D72C8D500658E02 /* ViewController.m */,
+				B8278F401D72CA7100658E02 /* CommentViewController.h */,
+				B8278F411D72CA7100658E02 /* CommentViewController.m */,
 				B8278F141D72C8D500658E02 /* Main.storyboard */,
 				B8278F171D72C8D500658E02 /* Assets.xcassets */,
 				B8278F191D72C8D500658E02 /* LaunchScreen.storyboard */,
 				B8278F1C1D72C8D500658E02 /* Info.plist */,
+				B8278F3E1D72C98A00658E02 /* image.jpg */,
 				B8278F0B1D72C8D500658E02 /* Supporting Files */,
 			);
 			path = Reverse;
@@ -246,6 +254,7 @@
 				B8278F1B1D72C8D500658E02 /* LaunchScreen.storyboard in Resources */,
 				B8278F181D72C8D500658E02 /* Assets.xcassets in Resources */,
 				B8278F161D72C8D500658E02 /* Main.storyboard in Resources */,
+				B8278F3F1D72C98A00658E02 /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8278F421D72CA7100658E02 /* CommentViewController.m in Sources */,
 				B8278F131D72C8D500658E02 /* ViewController.m in Sources */,
 				B8278F101D72C8D500658E02 /* AppDelegate.m in Sources */,
 				B8278F0D1D72C8D500658E02 /* main.m in Sources */,
